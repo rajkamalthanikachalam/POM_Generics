@@ -11,7 +11,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 /**
  * @author Raj Kamal Thanikachalam
  * This is the base class for all
- * naveenanimation20@gmail.com
  */
 public abstract class AbstractPage {
 

@@ -34,7 +34,7 @@ public class LoginTest extends BaseTest {
     @Test(priority = 3)
     public void verifyLogin() {
         //Assigning it to the landing page
-        HomePage hp = page.getInstance(LoginPage.class).Login("008rajkamal@gmail.com", "Aug$2019@");
+        HomePage hp = page.getInstance(LoginPage.class).Login("username", "password");
         String headerHome = hp.getHomePageHeader();
         Assert.assertEquals(headerHome, "Getting started with HubSpot");
 
